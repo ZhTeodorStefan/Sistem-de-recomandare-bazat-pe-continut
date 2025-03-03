@@ -3,4 +3,7 @@
 Operatii CRUD pe baza de date MongoDB folosind Python
 
 ## Etapa 2
-TBD
+Web Scraping
+
+## Etapa 3
+TBD - DAO + DTO
