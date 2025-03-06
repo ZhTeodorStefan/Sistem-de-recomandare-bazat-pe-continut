@@ -1,15 +1,15 @@
 from pymongo import MongoClient
 
 # Conectare la serverul local MongoDB
-client = MongoClient('mongodb://localhost:27017/')
+client = MongoClient('mongodb+srv://teodorstefanzaharia:OdTvBHwBaENZZiC0@main.g8ezz.mongodb.net/')
 print("Conectare reusita la MongoDB!")
 
 # Selectarea bazei de date
-db = client['produse']
+db = client['testare']
 print("Baza de date selectata")
 
 # Selectarea colectiei
-collection = db['telefoane']
+collection = db['tutorial']
 print("Colectia selectata")
 
 # CRUD
